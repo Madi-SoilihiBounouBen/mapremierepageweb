@@ -1,10 +1,15 @@
 p{
     color: red;
+    text-align:center
 }
-/*J'ai ajouté la couleure rouge à mes paragraphe*/
+#Paragraphe1{
+    color:blue;
+}
+/*J'ai ajouté la couleure rouge à mes paragraphe et centrer les textes*/
 h1{
     color: green;
 }
+
 /*J'ai ajouté la couleure verte à mon titre h1*/
 h4{
     color:blue;
