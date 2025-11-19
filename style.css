@@ -1,0 +1,29 @@
+p{
+    color: red;
+}
+/*J'ai ajouté la couleure rouge à mes paragraphe*/
+h1{
+    color: green;
+}
+/*J'ai ajouté la couleure verte à mon titre h1*/
+h4{
+    color:blue;
+}
+/*J'ai ajouté la couleure blue à mon titre h4*/
+ol{
+    color:chocolate;
+}
+/*J'ai ajouté la couleure chocolate à ma liste ordonnée*/
+h5{
+    color:aqua;
+}
+/*J'ai ajouté la couleure aqua à mon titre h5*/
+h6{
+    color:chartreuse;
+}
+/*J'ai ajouté la couleure chartreuse à mon titre h6*/
+    
+ul{
+    color:crimson;
+}
+/*J'ai ajouté des couleurs à ma liste non ordonnée*/
