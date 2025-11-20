@@ -12,7 +12,7 @@ h1{
 
 /*J'ai ajouté la couleure verte à mon titre h1*/
 h4{
-    color:blue;
+    color:brown;
 }
 /*J'ai ajouté la couleure blue à mon titre h4*/
 ol{
@@ -32,3 +32,8 @@ ul{
     color:crimson;
 }
 /*J'ai ajouté des couleurs à ma liste non ordonnée*/
+
+/*Je selectionne la classe rsma et les paragraphes vont être en blue*/
+.rsma{
+            color:blue;
+}
