@@ -36,5 +36,30 @@ ul{
 /*Je selectionne la classe rsma et les paragraphes vont être en blue*/
 .rsma{
     color:blue;
-    font-size: 24px
+    font-size: 24px ; /*changer la taille du texte*/
+    font-family:Helvetica; /*Changement de police*/
+}
+/*Ici, j'ai mis tout les écriture qui se trouve sur la page web,sur le style Playfair Display, sans-serif*/
+body{
+    font-family: 'Playfair Display', sans-serif;
+}
+.w3school{
+    font-style: italic;
+}
+/*Ici, j'ai mis mon paragaphe en gras*/
+.gras{
+    font-weight: bold
+}
+/*J'ai souligné mon paragraphe*/
+.soulignement{
+    text-decoration: underline
+}
+/*Ici, j'ai centrer mon titre*/
+.centrer{
+    text-align: center
+}
+.propos{
+    font-size: 3.5em;
+    color:#A5B4FC;
+    font-style: montserrat;
 }
