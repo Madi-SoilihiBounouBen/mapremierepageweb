@@ -1,0 +1,16 @@
+h1{
+    font-size: 3.5em;
+    color:#A5B4FC;
+    font-style: montserrat;
+}
+p{
+    font-size: 1.1em;
+    font-style:Manrope;
+}
+ul{
+    font-size: 1em;
+    font-style: Manrope;
+}
+a {
+    text-decoration: none;
+}
