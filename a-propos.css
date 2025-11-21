@@ -1,16 +1,20 @@
+/*J'ai changé la couleur, la taille et la police de mon titre*/
 h1{
     font-size: 3.5em;
     color:#A5B4FC;
     font-style: montserrat;
 }
+/*J'ai changé la taille et la police de mes paragraphes*/
 p{
     font-size: 1.1em;
     font-style:Manrope;
 }
+/*J'ai changé la taille et la police de ma liste */
 ul{
     font-size: 1em;
     font-style: Manrope;
 }
+/*J'ai enlevé les soulignement des liens qui sont sur ma page web*/
 a {
     text-decoration: none;
 }
