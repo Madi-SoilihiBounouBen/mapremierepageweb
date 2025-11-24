@@ -1,0 +1,22 @@
+/*Color, c'est le propiété, red est la valeur. On appelle l'ensemble instruction*/
+/*du côté CSS, div est un sélécteur*/
+div{
+    color:red;/*Sur cette ligne, la couleur de l'écriture est rouge*/
+     background-color: yellow;/*Background veut dire "arrière plane", je l'ai mis en jaune*/
+     border: solid;/*Ici, j'ai rajouté des bordures solide sur le paragraphe*/
+}
+
+/*Ici, j'ai rajouté des bordures doubles noires sur le paragraphe*/
+#div2{
+    border: double black;
+}
+
+/*Ici, j'ai rajouté des bordures dotted (pointié) sur le paragraphe*/
+#div3{
+    border: dotted;
+}
+
+/*Ici, j'ai rajouté des bordures dashed (point-tiret) sur le paragraphe*/
+#div4{
+    border: 3px dashed;
+}
