@@ -3,41 +3,41 @@
 #divSolid{
     color:red;/*Sur cette ligne, la couleur de l'écriture est rouge*/
     background-color: yellow;/*Background veut dire "arrière plane", je l'ai mis en jaune*/
-    width: 150px;
+    width: 200px;
     border: solid;/*Ici, j'ai rajouté des bordures solide sur le paragraphe*/
 }
 
 /*Ici, j'ai rajouté des bordures doubles noires sur le paragraphe*/
 #divDouble{
     border: double black;/*J'ai mis une bordure double de couleur noir*/
-    width: 150px;
+    width: 200px;
     background-color: rgb(12, 126, 126);/*Ici, j'ai mis la couleur sur mon arrière plan*/
 }
 
 /*Ici, j'ai rajouté des bordures dotted (pointié) sur le paragraphe*/
 #divDotted{
     border: dotted;/*J'ai mis une bordure avec pointié*/
-    width: 150px;
+    width: 200px;
     background-color: brown;
 }
 
 /*Ici, j'ai rajouté des bordures dashed (point-tiret) sur le paragraphe*/
 #divDashed{
     border: 3px dashed;
-    width: 150px;/*Réglé la taille de la bordure*/
+    width: 200px;
     background-color: blueviolet;/*Couleur de l'arrière plan de la bordure*/
 }
 #div1{
   border: solid;
-  width: 150px; /*Réglé la taille de la bordure*/
+  width: 200px; /*Réglé la taille de la bordure*/
   border-radius: 25px 10px 50px 75px;
   color: green;
   background-color: yellow;
 }
-
+/*Je selectionne ma deuxième balise grace à son identifiant div2*/
 #div2{
   border: 4px solid pink;
-  width: 150px;/*Réglé la taille de la bordure*/
+  width: 200px;/*Réglé la taille de la bordure*/
   border-radius: 50px 80px 50px 80px;
   background: #ffe6f2;  
 }
@@ -51,8 +51,8 @@
 
 /* Style des pétales */
 .petale {
-    width: 80px; /* Largeur du pétale */
-    height: 120px; /* Hauteur : donne une forme allongée */
+    width: 95px; /* Largeur du pétale */
+    height: 110px; /* Hauteur : donne une forme allongée */
     background: pink;/* Couleur du pétale */
     border-radius: 50%;/* Donne une forme ovale ou arrondie */
     position: absolute;/* Permet de placer individuellement chaque pétale */
@@ -79,6 +79,6 @@
     background: yellow; /* Couleur du centre */
     border-radius: 50%;/* Cercle parfait */ 
     position: absolute;
-    top: 100px; /*Déplacement vertical de la pollen */
-    left: 46px; /*déplacement horizontal de la pollen*/
+    top: 95px; /*Déplacement vertical de la pollen */
+    left: 55px; /*déplacement horizontal de la pollen*/
 }
