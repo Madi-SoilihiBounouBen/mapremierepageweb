@@ -82,3 +82,13 @@
     top: 95px; /*Déplacement vertical de la pollen */
     left: 55px; /*déplacement horizontal de la pollen*/
 }
+
+/*Sur mon div4, j'ai créé une sorte de pierre avec une couleur dégradé*/
+#div4{
+    width: 300px; /*La taille horizontale*/
+    height: 300px;/*La taille verticale*/
+    /*l'inclinéson du dégradé*/
+    background: linear-gradient(40deg, #32156e, #e10b99);
+    /*Le pourcentage pour faire le graphique*/
+    border-radius: 30% 70% 70% 30% / 30% 58% 42% 70%;
+}
