@@ -2,14 +2,84 @@
 <html lang="fr"><!--l'attribut lang permet de choisir
     la langue de notre site-->
     <head><!--Entête du site-->
-        <meta charset="UTF-8">
-        <title>Formulaire</title>
-    </head>
+        <meta charset="UTF-8"><!--Caractère des écritures de la page-->
+        <title>Formulaire d'inscription</title><!--Titre de la page-->
+        <link href="formulaire.css" rel="stylesheet">
+    </head><!--Fin de l'entête-->
 
-    <body>
+    <body><!--Ce que va contenir la page-->
+
+        <!--Je rédige la structure du formulaire d'inscription-->
+        <form><!--Début du formulaire-->
+            
+            <div>
+            <!--Le label est une legende qui va accompagné mon input-->
+            <!--For est l'attribut qui associe le label à l'input -->
+            <label for="prenom">Prénom(s):</label>
+            <!--input est la zone de saisie-->
+            <!--l'attribut type va me permet de dire à ma page web que 
+            la formule à saisir est de tel type, et ici, il est de type texte-->
+            <input type="text" name="prenom">
+            
+
+            <label for="nom">Nom :</label>
+            <input type="text" name="nom" id="prenom">
+            <br><br>
+            </div>
+
+            <div>
+            <label for="village">Village :</label>
+            <input type="text" name="village" id="village">
+                
+
+            <label for="dateNaissance">Date de naissance:</label>
+            <!--Ici, mon type de saisie est la date-->
+            <input type="date" name="dateNaissance" id="dateNaissance" class="inputNaissance">
+            <br><br>
+            </div>
+
+            <div>
+            <label for="sexe">Sexe :</label>
+            <!--Value indique au serveur notre choix exemple
+            Le serveur te demande : « Quelle boisson ? »
+            name="boisson"
+            Tu dis : « Coca »
+            C’est l’équivalent de :
+            value="coca"
+            value sert à indiquer la donnée exacte que le formulaire enverra 
+            lorsque ce champ est sélectionné ou rempli.
+            -->
+            <input type="radio" name="sexe" value="homme">H
+
+            <!--Ici, on peut avoir une autre écriture-->
+            <input type="radio" name="sexe">
+            <label for="sexe">F</label>
+            <br><br>
+            </div>
+            
+
+            <label for="discipline" class="disciplineEmail">Discipline :</label><br>
+            <input type="checkbox" name="discipline" value="MATHS" class="disciplineEmail">MATHS
+            <br>
+            <input type="checkbox" name="discipline" value="Histoire/Géographie" class="disciplineEmail">Histoire/Géographie
+            <br>
+            <input type="checkbox" name="discipline" value="EPS" class="disciplineEmail">EPS
+
+            <br><br>
+            <label for="email" class="disciplineEmail">Email :</label>
+            <!--Ici, le type de saisie est le mail-->
+            <input type="email" name="email" id="email" class="inputMail">
+            <br><br>
+
+            <label for=""></label>
+
+            <input type="submit" class="envoyer"><!--Bouton envoyer-->
+          
+
+        </form><!--Fin du formulaire-->
 
 
 
-    </body>
+    </body><!--Fin du corps de la page-->
 
 </html>

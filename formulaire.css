@@ -1,0 +1,38 @@
+form{
+    background: rgb(8, 249, 205);/*J'ai changé la couleur de l'arrière plan de ma formulaire*/
+    margin-top: 25px;/*J'ai déplacé la marge de ma formulaire vers le haut*/
+    margin-left: 30px;/*J'ai déplacé la marge de ma formulaire vers la gauche*/
+    padding-top: 25px;/*Je déplace les contenus de ma formulaire d'une marge vers le bas*/
+    border-color: rgb(221, 23, 23);
+    box-shadow: 10px 5px 5px rgb(0, 0, 0);
+    width: 755px;
+}
+div{
+    display: inline;/*Afficher sur la même ligne sur le site*/
+    margin-left: 30px;
+}
+/*Je fais appel à toute les lignes input qui contient du texte*/
+input[type=text]{
+    padding: 7px;/*Modifier la taille des inputs de type texte*/
+    border-radius: 15%;
+    border-color: rgb(221, 23, 23);
+}
+.envoyer{
+    margin-bottom: 25px;/*J'ai déplacé la marge demon boutou "envoyer" vers le bas*/
+    margin-left: 30px;/*J'ai déplacé la marge de mon boutou "envoyer" vers la gauche*/
+}
+.disciplineEmail{
+    margin-left: 30px;/*J'ai déplacé le marge de mon mail et descipline vers la droite*/
+}
+.inputMail{
+    padding: 7px;/*Modifier la taille des inputs de mon mail*/
+    border-radius: 15%;
+    border-color: rgb(221, 23, 23);
+    box-shadow: 10px 5px 5px rgb(0, 0, 0);
+}
+.inputNaissance{
+    padding: 7px;/*Modifier la taille des inputs de la date de naissance*/
+    border-radius: 15%;
+    border-color: rgb(221, 23, 23);
+    box-shadow: 10px 5px 5px rgb(0, 0, 0);
+}
