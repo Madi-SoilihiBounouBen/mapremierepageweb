@@ -1,0 +1,54 @@
+/*Je vais structure ma page web*/
+
+/*L'étoile veut dire que je séléction tout les éléments de la pages*/
+*{
+    box-sizing: border-box;
+}
+
+/*L'en-tête de la page*/
+header{
+    background-color: #666;/*L'arrière plan est colorié en gris*/
+    padding: 30px;/*aggrandissement du marge de header*/
+    text-align: center;/*alignement du texte au milieu*/
+    color: white;/*Le texte en blanc*/
+    font-size: 25px ;/*Augmente la taille du texte*/
+}
+
+/*Mise en forme de la section*/
+section{
+    /*Optimise la taille de l'affichage en fonction de l'écran*/
+    display: -webkit-flex;
+    display: flex;
+}
+
+/*Mise en forme de la barre de navigation*/
+nav{
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: #907b7b;
+    padding: 25px;
+}
+
+/*Mise en forme de la liste UL de la balise <nav>*/
+nav ul{
+    list-style-type: none; /*Je retire les puces de la liste*/
+    padding: 0;
+}
+
+/*Mise en forme de la partie article*/
+article{
+    -webkit-flex:3;
+    -ms-flex: 3;
+    flex: 3;
+    background: #dadfd8;
+    padding: 10px;
+}
+
+/*Mise en forme du pied*/
+footer{
+    text-align: center;
+    background-color: #777;
+    color: #ffffff;
+    padding: 10px;
+}
