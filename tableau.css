@@ -1,0 +1,18 @@
+table {
+    width: 60%; /*la taille des cases en longueur*/
+    border-collapse: collapse; /* enlève les doubles bordures */
+    margin: 20px auto; /* centre le tableau */
+    font-family: Arial, sans-serif;/*La police d'écriture*/
+}
+td {
+    border: 1px solid #0c0101;/*La couleur des bordures*/
+    padding: 10px;/*Taille des cases en largeur */
+    text-align: center;/*Les textes sont centrer*/
+    background: rgb(203, 52, 178);
+}
+th{
+    border: 1px solid #0c0101;/*La couleur des bordures*/
+    padding: 10px;/*Taille des cases en largeur */
+    text-align: center;/*Les textes sont centrer*/
+    background: rgb(95, 203, 52);
+}
